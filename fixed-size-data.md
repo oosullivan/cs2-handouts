@@ -1,7 +1,7 @@
 For each row of shapes in the image below, go through the following steps:
 
 1. In a code comment, describe the family of shapes.
-2.Describe what variables you will need in the data type, and the meaning of each
+2. Describe what variables you will need in the data type, and the meaning of each
 3. Write a class  with the necessary variables.  Make all varables `final`.
 4. Write a constructor for the data type.
 5. Write a function that draws a value of your data type.
