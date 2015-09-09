@@ -7,22 +7,20 @@ For each row of shapes in the image below, go through the following steps:
 5. Write a function that draws a value of your data type.
 
 For example, for the first row, I would write for each step:
+
 1. Circles of various sizes
 2. The radius of the circle
-3. ``` java
+3. ```
 class Circle {
     final float r;
-}
-```
-4. ```java
+}```
+4. ```
 Circle(float r_) {
    r = r_;
-   }
-   ```
-   5. ```java
+   }```
+5. ```
    drawCircle(Circle c) {
    ellipse(0,0,c.r,c.r);
-}
-   ```
+}```
 
 ![](images/fixed-size-data.png)
