@@ -9,17 +9,20 @@ For each row of shapes in the image below, go through the following steps:
 For example, for the first row, I would write for each step:
 1. Circles of various sizes
 2. The radius of the circle
-3. ~~~ java
+3. ``` java
 class Circle {
     final float r;
 }
-~~~
-4. Circle(float r_) {
+```
+4. ```java
+Circle(float r_) {
    r = r_;
-}
-5. drawCircle(Circle c) {
+   }
+   ```
+   5. ```java
+   drawCircle(Circle c) {
    ellipse(0,0,c.r,c.r);
 }
-   
+   ```
 
-![](fixed-size-data.png)
+![](images/fixed-size-data.png)
